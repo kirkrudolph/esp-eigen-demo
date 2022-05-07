@@ -4,4 +4,4 @@
 2. Copied in eigen.
 3. Copied in a simple function that uses eigen.
 4. Added include dir to `main/CMAkeLists.txt`
-5. idf.py build flash monitor.
+5. `idf.py build flash monitor`
