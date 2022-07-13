@@ -16,5 +16,6 @@
         "openglsupport": "cpp",
         "specialfunctions": "cpp",
         "splines": "cpp"
-    }
+    },
+    "idf.adapterTargetName": "esp32"
 }

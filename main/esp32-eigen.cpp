@@ -2,6 +2,7 @@
 #include <iostream>
 #include "Eigen/Dense"
 #include "Eigen/SVD"
+#include "mpu6050.h"
 
 using Eigen::MatrixXd;
 
@@ -41,4 +42,7 @@ void app_main(void)
 {
     printf("Hello World\n");
     test();
+    i2c_port_t busA = 0; 
+    mpu6050_create(busA,0x8A);
+
 }
